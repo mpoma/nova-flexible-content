@@ -1,0 +1,16 @@
+Hacer el cloando a la maquina
+renonbrar el mixin, sacandole .dist si es que lo tiene
+
+hacer 
+composer update
+npm install 
+npm install laravel-nova-ui --save
+npm install nova-mixins --save 
+(este ultimo por las dudas, porque hasta ahora siempre me fallo, pero no influye)
+
+npm run dev 
+me va a generar el .dist, que junto al src los copio al vendor/whitecube/nova-fle..... de la app que quiero agregar. Ahi lo pruebo
+
+al terminar, meter
+
+npm run prod
