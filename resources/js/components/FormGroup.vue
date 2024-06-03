@@ -28,7 +28,7 @@
                       {{ group.title }}
                     </p>
 
-                    <div class="flex" v-if="!readonly && !hideGroupButtons">
+                    <div class="flex" v-if="!readonly && false /*!hideGroupButtons*/ ">
                         <button
                             dusk="drag-group"
                             type="button"
